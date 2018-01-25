@@ -13,6 +13,7 @@
 		E27A35BD2019FB8A0018A862 /* SokoBan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E27A35BB2019FB8A0018A862 /* SokoBan.xcdatamodeld */; };
 		E27A35BF2019FB8A0018A862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27A35BE2019FB8A0018A862 /* Assets.xcassets */; };
 		E27A35C22019FB8A0018A862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27A35C02019FB8A0018A862 /* LaunchScreen.storyboard */; };
+		E27A35CA201A19820018A862 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A35C9201A19820018A862 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E27A35BE2019FB8A0018A862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27A35C12019FB8A0018A862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27A35C32019FB8A0018A862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27A35C9201A19820018A862 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E23B2E32201A1D5C005D564B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E27A35B62019FB8A0018A862 /* ViewController.swift */,
+				E27A35C9201A19820018A862 /* MainVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		E27A35A82019FB8A0018A862 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				E27A35B42019FB8A0018A862 /* AppDelegate.swift */,
-				E27A35B62019FB8A0018A862 /* ViewController.swift */,
+				E23B2E32201A1D5C005D564B /* ViewControllers */,
 				E27A35B82019FB8A0018A862 /* Main.storyboard */,
 				E27A35BE2019FB8A0018A862 /* Assets.xcassets */,
 				E27A35C02019FB8A0018A862 /* LaunchScreen.storyboard */,
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27A35B72019FB8A0018A862 /* ViewController.swift in Sources */,
+				E27A35CA201A19820018A862 /* MainVC.swift in Sources */,
 				E27A35BD2019FB8A0018A862 /* SokoBan.xcdatamodeld in Sources */,
 				E27A35B52019FB8A0018A862 /* AppDelegate.swift in Sources */,
 			);
