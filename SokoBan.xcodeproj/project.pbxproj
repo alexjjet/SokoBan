@@ -14,6 +14,7 @@
 		E27A35BF2019FB8A0018A862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27A35BE2019FB8A0018A862 /* Assets.xcassets */; };
 		E27A35C22019FB8A0018A862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27A35C02019FB8A0018A862 /* LaunchScreen.storyboard */; };
 		E27A35CA201A19820018A862 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A35C9201A19820018A862 /* MainVC.swift */; };
+		E2C9F498202378020066A0B8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C9F497202378020066A0B8 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E27A35C12019FB8A0018A862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27A35C32019FB8A0018A862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E27A35C9201A19820018A862 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E2C9F497202378020066A0B8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				E27A35C02019FB8A0018A862 /* LaunchScreen.storyboard */,
 				E27A35C32019FB8A0018A862 /* Info.plist */,
 				E27A35BB2019FB8A0018A862 /* SokoBan.xcdatamodeld */,
+				E2C9F497202378020066A0B8 /* Model.swift */,
 			);
 			path = SokoBan;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C9F498202378020066A0B8 /* Model.swift in Sources */,
 				E27A35B72019FB8A0018A862 /* ViewController.swift in Sources */,
 				E27A35CA201A19820018A862 /* MainVC.swift in Sources */,
 				E27A35BD2019FB8A0018A862 /* SokoBan.xcdatamodeld in Sources */,
